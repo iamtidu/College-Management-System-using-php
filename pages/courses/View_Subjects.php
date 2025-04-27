@@ -41,8 +41,8 @@ if(isset($_GET['rs_id']))
         <form method="post">
             <input type="text" name="searchtxt" class="input_box_pos form-control" placeholder="Search Course" />
             <div class="btn_pos_search">
-            <input type="submit" class="btn btn-primary btn-large" value="Search"/>&nbsp;&nbsp;
-            <a href="?tag=subject_entry"><input type="button" class="btn btn-large btn-primary" value="Register new" name="butAdd"/></a>
+            <input type="submit" class="btn btn-large"style="background-color: #00a9b4; color: white;" value="Search"/>&nbsp;&nbsp;
+            <a href="?tag=subject_entry"><input type="button" class="btn btn-large " style="background-color: #00a9b4; color: white;" value="Register new" name="butAdd"/></a>
             </div>
         </form>
     </div><br><br>
