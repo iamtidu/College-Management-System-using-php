@@ -1,0 +1,22 @@
+body {
+	background-image: url(../images/banner.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	padding-top: 40px;
+}
+
+.container {
+	margin-top: 140px;
+	width: 30%;
+	float: left;
+	margin-left: 150px;
+	padding: 20px;
+	background-color: #00a8b432;
+	border-radius: 10px;
+}
+
+.container2 {
+	width: 100%;
+}

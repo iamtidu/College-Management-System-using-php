@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Segoe UI Light';
+    src: url('.././font/segoeuil.ttf');
+}
+body{
+    background-color: #00a8b432;
+}
+#center{
+text-align:center;	
+}
+
+.table_margin{
+	
+background-color: #f9f9f9;
+overflow: scroll;
+}
+
+.table_margin{
+    border: 3px solid #00a9b4;
+    border-radius: 5px;
+}
+
+.btn_pos {
+text-align: center;
+}
+
+.input_box_pos{
+width: 250px;
+border: 1px solid black;
+float: left;
+}
+
+.btn_pos {
+margin-right: 500px;
+}
+
+/* .btn_search_pos{
+    background-color: #00a9b4;
+} */
+
+::-webkit-scrollbar{
+    display: none;
+}
