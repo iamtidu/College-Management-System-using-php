@@ -1,5 +1,5 @@
 # College Management System
-### uding php
+### using php
 
 
 - HTML5 
