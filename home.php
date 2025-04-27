@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="css/hoome.css"/>
-<title>College management system</title>
+<title>Marwadi University</title>
 </head>
 
 <body>
