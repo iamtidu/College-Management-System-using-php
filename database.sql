@@ -1,12 +1,3 @@
--- phpMyAdmin SQL Dump
--- version 5.2.0
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Generation Time: Nov 13, 2022 at 06:32 PM
--- Server version: 10.4.25-MariaDB
--- PHP Version: 8.1.10
-
 CREATE DATABASE IF NOT EXISTS cms;
 USE cms;
 
@@ -16,15 +7,6 @@ START TRANSACTION;
 SET time_zone = "+00:00";
 
 
---
--- Database: `cms`
---
-
--- --------------------------------------------------------
-
---
--- Table structure for table `course`
---
 
 CREATE TABLE `course` (
   `c_id` varchar(25) NOT NULL,
@@ -43,10 +25,6 @@ CREATE TABLE `fa` (
   `t_id` varchar(25) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data for table `fa`
---
-
 -- --------------------------------------------------------
 
 --
@@ -60,10 +38,6 @@ CREATE TABLE `gradecard` (
   `c_id` varchar(25) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data for table `gradecard`
---
-
 
 -- --------------------------------------------------------
 
@@ -75,11 +49,6 @@ CREATE TABLE `register` (
   `s_id` varchar(25) NOT NULL,
   `c_id` varchar(25) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `register`
---
-
 
 -- --------------------------------------------------------
 
@@ -101,10 +70,6 @@ CREATE TABLE `student` (
   `totaldays` varchar(25) DEFAULT NULL,
   `fa_id` varchar(25) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `student`
---
 
 -- --------------------------------------------------------
 

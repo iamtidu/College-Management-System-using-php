@@ -75,8 +75,8 @@ body {font-family: Verdana, sans-serif;}
 </head>
 <body>
 
-<h2>Gallery</h2>
-<p>welcome to Marwadi UNniversity</p>
+<h2 style="color: #00a9b4; font-weight: bold; ">Marwadi University</h2>
+<p>Rajkot-Morbi Road, 360 003 Gujarat, India</p>
 
 <div class="slideshow-container">
 
